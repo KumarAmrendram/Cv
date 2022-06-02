@@ -146,9 +146,9 @@ footer.footer-area .social a > i:hover {
 
 
 /* <!--  MEDIA QUERIES --> */
-@media (max-width:760px){
+@media (max-width:710px){
 
-    /* <!-- navigation bar --> */
+/* <!-- navigation bar --> */
 .header-area .navbar .navbar-brand {
     padding: 1rem 0 ;
 }
@@ -158,11 +158,19 @@ footer.footer-area .social a > i:hover {
 /* <!--  Site Banner --> */
     .site-main .site-banner .top-container h1 {
         padding: 1rem 1rem 0 ;
-        font: normal 500 30px/12px var(--montserrat);
+        font: normal 500 40px/12px var(--montserrat);
         color: whitesmoke;
         text-align: center;
     }
 /* <!--  End Site Banner --> */
+}
+
+@media (max-width:450px) {
+    .site-main .site-banner .top-container h1 {
+        padding: 1rem 1rem 0 ;
+        font: normal 500 30px/12px var(--montserrat);
+        color: whitesmoke;
+        text-align: center;    }
 }
 
 @media (max-width:800px) {

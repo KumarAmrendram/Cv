@@ -1,0 +1,191 @@
+/* CSS variables */
+@import url(./partials/_variables.css);
+
+
+/* global variables */
+@import url(./partials/_global.css);
+
+/* <!-- navigation bar --> */
+
+.header-area .main-menu .navbar {
+    background-color: #8FD6E1;
+}
+.header-area .main-menu .navbar .navbar-brand {
+    padding: 1rem 5rem 0 ;
+    align-self:center;
+}
+
+.header-area .main-menu .navbar .navbar-brand img {
+    width: 2rem;
+}
+.header-area .main-menu .navbar .nav-item .nav-link {
+    font: normal 500 20px/12px var(--montserrat);
+}
+
+.header-area .main-menu .navbar .navbar-nav .active a{
+    font: normal 500 20px/12px var(--montserrat);
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.header-area .main-menu .navbar .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* <!-- End navigation bar --> */
+
+
+
+/* <!--  Site Banner --> */
+.top-container {
+    width: 100%;
+    height: 600px;
+    background-color: #8FD6E1;
+}
+.site-main .site-banner .top-container h1 {
+    padding: 3rem  ;
+    font: normal 500 61px/20px var(--montserrat);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-main .site-banner .top-container .top-cloud {
+    float: right;
+}
+
+.site-main .top-container h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.site-main .top-container h2 .pro {
+    text-decoration: underline;
+}
+
+/* <!--  End Site Banner --> */
+
+
+/* <!--   Intro area --> */
+.site-main .site-banner .profile {
+    padding: 3rem 0 0;
+    text-align: center;
+}
+
+.site-main .site-banner .profile .intro {
+    font: normal 400 20px/20px var(--montserrat);
+}
+/* <!--   End  Intro area --> */
+
+/* <!--   Skills Area --> */
+.site-main .site-skills {
+    background-color: whitesmoke;
+    padding: 0.5rem 0 ;
+}
+.site-main .site-skills .skills .skills-row {
+    margin: 100px auto 100px auto;
+    width: 60%;
+    text-align: left;
+}
+
+.site-main .site-skills .skills .skills-row .coding {
+    margin-right: 30px;
+    float: left;
+}
+
+.site-main .site-skills .skills .skills-row .machine-learning {
+    margin-left: 30px;
+    float: right ;
+}
+/* <!--   End Skills Area --> */
+
+
+/* <!-- ================== Contact ME Area  ================== --> */
+.site-main .contact-me {
+    margin: 1rem 0;
+    text-align: center;
+}
+/* <!-- ================== End Contact ME Area  ================== --> */
+
+
+
+/* <!-- ================== Footer Area  ================== --> */
+.footer-area .container-fluid {
+    margin: 3rem 0;
+    background-color: #E0DDAA;
+}
+
+.footer-area .container-fluid .site-logo img {
+    width: 3rem;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/30px 'Montserrat';
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/30px 'Montserrat';
+}
+
+footer.footer-area .social a > i {
+    font-size: 22px;
+    padding: 0.5rem 1rem ;
+    color: #203239;
+}
+
+footer.footer-area .social a > i:hover {
+    color: var(--gradient-color);
+}
+/* <!-- ================== End Footer Area  ================== --> */
+
+
+
+
+/* <!--  MEDIA QUERIES --> */
+@media (max-width:760px){
+
+    /* <!-- navigation bar --> */
+.header-area .navbar .navbar-brand {
+    padding: 1rem 0 ;
+}
+/* <!-- End navigation bar --> */
+
+
+/* <!--  Site Banner --> */
+    .site-main .site-banner .top-container h1 {
+        padding: 1rem 1rem 0 ;
+        font: normal 500 30px/12px var(--montserrat);
+        color: whitesmoke;
+        text-align: center;
+    }
+/* <!--  End Site Banner --> */
+}
+
+@media (max-width:800px) {
+        .site-main .site-banner .top-container .top-cloud {
+            display: none;
+        }
+}
+
+@media (max-width:500px) {
+    .site-main .site-skills .skills .skills-row {
+        margin: 100px auto 100px auto;
+        width: 60%;
+        text-align: center;
+    }
+    
+    .site-main .site-skills .skills .skills-row .coding {
+        float: none;
+    }
+    
+    .site-main .site-skills .skills .skills-row .machine-learning {
+        float: none;
+    }
+}
+
+
+
